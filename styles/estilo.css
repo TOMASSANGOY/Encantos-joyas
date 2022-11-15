@@ -17,7 +17,7 @@ body{
 }
 
 .barra {
-    border-bottom: 1px solid black;
+    border-bottom: 1px inset black;
     position: fixed;
     top: 0;
     z-index: 200;
@@ -42,7 +42,7 @@ body{
 .info .slogan h2{
     font-size: 50px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     color: rgb(139, 78, 131);
 }
 
@@ -64,228 +64,206 @@ body{
     }
 }
 
-.info .IrTienda {
-    position: relative;
-    margin: 200px auto 200px auto;
-    width: 80%;
-    height: 580px;
-    background-color: rgb(129, 74, 129);
+.categorias{
+    margin-top: 100px;
+    padding-top: 2%;
+    background-color: #a011c4;
+    margin-bottom: 100px;
 }
 
-.IrTienda-titulo h2{
-    color: #fff;
-    font-size: 60px;
-    text-align: center;
-    padding-top: 20px;
+.categorias h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 900;
 }
 
-.IrTienda .categorias {
-    display: flex;
-    margin: 30px 30px;
+.categorias .imagen{
+    background-color: #a011c4;
+    margin-bottom: 50px;
 }
 
-.IrTienda .IrTienda-collares {
-    margin: 0 2.2%;
-    width: 50%;
-    height: 350px;
-    background-color: antiquewhite;
-}
 
-.IrTienda .IrTienda-anillos {
-    margin: 0 2.2%;
-    width: 50%;
-    height: 350px;
-    background-color: antiquewhite;
-} 
-
-.IrTienda .IrTienda-pulseras {
-    margin: 0 2.2%;
-    width: 50%;
-    height: 350px;
-    background-color: antiquewhite;
-}
-
-.IrTienda .IrTienda-aros {
-    margin: 0 2.2%;
-    width: 50%;
-    height: 350px;
-    background-color: antiquewhite;
-}
-
-.categorias img {
+.tamaño-imagen{
+    background-color: #a011c4;
     width: 100%;
     height: 100%;
-    opacity: 1;
+    margin-top: 20px;
 }
 
-.IrTienda-boton  {
-    text-align: center;
-    padding-top: 15px;
+.categorias .boton {
+    width: 30%;
+    background-color: #a011c4;
+    margin: auto;
 }
 
-.IrTienda-boton a {
+
+.categorias .boton a {
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: #000000;
     background-color: rgb(248, 184, 177);
     border: 4px solid rgb(200, 100, 100);
     padding: 10px;
 }
 
-.footer-container {
-    width: 100%;
-    height: 250px;
-    position: relative;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
+
+/* FOOTER */
+
+.pie {
+    background-color: aqua;
     border-top: 1px inset black;
 }
 
-
-.footer-info{
-    display: flex;
-    background-color: #fff;
+.contacto{
+    padding-top: 10px;
 }
 
-
-
-.footer-container .navegacion {
-    width: 30%;
-    height: 250px;
-    margin: 2%;
-    background-color: #fff;
+.paginas {
+    display: grid;
+    margin-top: 30px;
 }
 
-.footer-container .navegacion h3 {
-    text-align: center;
-    font-size: 25px;
-    padding-top: 15px;
-    text-shadow: 2px 2px 4px #000000;
+.paginas a {
+    text-decoration: none;
+    color: #a011c4;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 22px;
 }
 
-.footer-container .navegacion ul {
-    text-align: center;
-    margin-top: 25px;
-    list-style: none;
-}
-
-.footer-container .navegacion ul li {
-    padding: 7px;
-}
-
-.footer-container .navegacion ul li a{
-    list-style: none;
-    color: blueviolet;
-    font-weight: bold;
+.paginas a:hover {
+    text-decoration: none;
+    color: #000000;
     font-size: 20px;
 }
 
-.footer-container .navegacion ul li a:hover {
-    list-style: none;
-    color: black;
-    font-weight: bold;
+.medios {
+    margin-top: 30px;
 }
 
-
-
-
-
-
-
-.footer-container .mediosDePago {
-    width: 30%;
-    height: 250px;
-    margin: 2%;
-    background-color: #fff;
+.medios img {
+    width: 28%;
+    padding: 5px;
 }
 
-.footer-container .mediosDePago h3 {
-    text-align: center;
-    font-size: 25px;
-    padding-top: 15px;
-    text-shadow: 2px 2px 4px #000000;
-    margin-bottom: 35px;
+.datos {
+    margin-top: 30px;
 }
 
-.footer-container .mediosDePago img {
-    width: 22%;
+.datos svg{
+    width: 40%;
+    height: 40%;
 }
 
-
-
-
-.footer-container .contactanos {
-    width: 30%;
-    margin-top: 2%;
-    background-color: #fff;
-    text-align: center;
-    justify-content: center;
+.datos p {
+    font-size: 20px;
 }
 
-.footer-container .contactanos h3 {
-    text-align: center;
-    font-size: 25px;
-    padding-top: 15px;
-    text-shadow: 2px 2px 4px #000000;
-    margin-bottom: 35px   
+.col1 .wts {
+    height: 150px;
 }
 
-.datos{
-    margin: auto;
+.col1 .mail {
+    height: 150px;
 }
 
-
-.wts {
-    align-items: center;
+.col2 .lugar {
+    height: 150px;
 }
 
-.wts .iconwts {
-    width: 35%;
-    height: 35%;
+.col2 .insta {
+    height: 150px;
 }
 
+@media screen and (max-width: 1475px) {
+    .datos {
+        margin-top: 30px;
+    }
+    
+    .datos svg{
+        width: 30%;
+        height: 30%;
+    }
+    
+    .datos p {
+        font-size: 15px;
+    }
+    
+    .col1 .wts {
+        height: 120px;
+    }
+    
+    .col1 .mail {
+        height: 120px;
+    }
+    
+    .col2 .lugar {
+        height: 120px;
+    }
+    
+    .col2 .insta {
+        height: 120px;
+    }
 
-.mail{
-    align-items: center;
+    .paginas a {
+        text-decoration: none;
+        color: #a011c4;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 18px;
+    }
+
+    .paginas a:hover {
+        text-decoration: none;
+        color: #000000;
+        font-size: 15px;
+    }
 }
 
-.mail .iconmail{
-    width: 35%;
-    height: 35%;
+@media screen and (max-width: 1120px) {
+    .datos {
+        margin-top: 20px;
+    }
+    
+    .datos svg{
+        width: 20%;
+        height: 20%;
+    }
+    
+    .datos p {
+        font-size: 12px;
+    }
+    
+    .col1 .wts {
+        height: 100px;
+    }
+    
+    .col1 .mail {
+        height: 100px;
+    }
+    
+    .col2 .lugar {
+        height: 100px;
+    }
+    
+    .col2 .insta {
+        height: 100px;
+    }
+
+    .paginas a {
+        text-decoration: none;
+        color: #a011c4;
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 11px;
+    }
+
+    .paginas a:hover {
+        text-decoration: none;
+        color: #000000;
+        font-size: 12px;
+    }
 }
-
-
-.lugar {
-    align-items: center;
-}
-
-.lugar .iconlugar{
-    width: 35%;
-    height: 35%;
-}
-
-
-.insta {
-    align-items: center;
-
-}
-
-.insta .iconinsta {
-    width: 35%;
-    height: 35%;
-}
-
-.col1 {
-    display: flex;
-    height: fit-content;
-}
-
-.col2 {
-    display: flex;
-}
-
-
-
 /* Como Comprar */
 
 .comoComprar {
