@@ -1,0 +1,552 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.imagen{
+    width: 10%;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.barra {
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    background-color: white;
+}
+
+:root 
+.navbar-nav{
+    --bs-nav-link-color: rgb(228, 15, 192);
+}
+
+/* Slider */
+
+.carrusel {
+    margin: auto;
+    margin-top: 90px;
+    width: 70%;
+}
+
+/* INFO Y SLOGAN */
+
+.info .slogan h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(139, 78, 131);
+}
+
+@media screen and (max-width: 1130px) {
+    .info .slogan h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .info .slogan h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .info .slogan h2 {
+        font-size: 20px;
+    }
+}
+
+.info .IrTienda {
+    position: relative;
+    margin: 200px auto 200px auto;
+    width: 80%;
+    height: 580px;
+    background-color: rgb(129, 74, 129);
+}
+
+.IrTienda-titulo h2{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.IrTienda .categorias {
+    display: flex;
+    margin: 30px 30px;
+}
+
+.IrTienda .IrTienda-collares {
+    margin: 0 2.2%;
+    width: 50%;
+    height: 350px;
+    background-color: antiquewhite;
+}
+
+.IrTienda .IrTienda-anillos {
+    margin: 0 2.2%;
+    width: 50%;
+    height: 350px;
+    background-color: antiquewhite;
+} 
+
+.IrTienda .IrTienda-pulseras {
+    margin: 0 2.2%;
+    width: 50%;
+    height: 350px;
+    background-color: antiquewhite;
+}
+
+.IrTienda .IrTienda-aros {
+    margin: 0 2.2%;
+    width: 50%;
+    height: 350px;
+    background-color: antiquewhite;
+}
+
+.categorias img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.IrTienda-boton  {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.IrTienda-boton a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(248, 184, 177);
+    border: 4px solid rgb(200, 100, 100);
+    padding: 10px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px inset black;
+}
+
+
+.footer-info{
+    display: flex;
+    background-color: #fff;
+}
+
+
+
+.footer-container .navegacion {
+    width: 30%;
+    height: 250px;
+    margin: 2%;
+    background-color: #fff;
+}
+
+.footer-container .navegacion h3 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.footer-container .navegacion ul {
+    text-align: center;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.footer-container .navegacion ul li {
+    padding: 7px;
+}
+
+.footer-container .navegacion ul li a{
+    list-style: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-container .navegacion ul li a:hover {
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.footer-container .mediosDePago {
+    width: 30%;
+    height: 250px;
+    margin: 2%;
+    background-color: #fff;
+}
+
+.footer-container .mediosDePago h3 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 35px;
+}
+
+.footer-container .mediosDePago img {
+    width: 22%;
+}
+
+
+
+
+.footer-container .contactanos {
+    width: 30%;
+    margin-top: 2%;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-container .contactanos h3 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 35px   
+}
+
+.datos{
+    margin: auto;
+}
+
+
+.wts {
+    align-items: center;
+}
+
+.wts .iconwts {
+    width: 35%;
+    height: 35%;
+}
+
+
+.mail{
+    align-items: center;
+}
+
+.mail .iconmail{
+    width: 35%;
+    height: 35%;
+}
+
+
+.lugar {
+    align-items: center;
+}
+
+.lugar .iconlugar{
+    width: 35%;
+    height: 35%;
+}
+
+
+.insta {
+    align-items: center;
+
+}
+
+.insta .iconinsta {
+    width: 35%;
+    height: 35%;
+}
+
+.col1 {
+    display: flex;
+    height: fit-content;
+}
+
+.col2 {
+    display: flex;
+}
+
+
+
+/* Como Comprar */
+
+.comoComprar {
+    margin: 0 0 0 10%;
+    color: blueviolet;
+}
+
+.comoComprar h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.ComoComprar-pasos {
+    width: 80%;
+    margin-top: 37px;
+}
+
+.ComoComprar-pasos ol li {
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+
+/* Contacto */
+
+.contacto{
+    display: flex;
+}
+
+.contacto-titulo {
+    width: 50%;
+    text-align: center;;
+}
+
+.contacto-titulo h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: blueviolet;
+}
+
+.contacto-titulo h3 {
+    font-size: 20px;
+    margin-top: 25px;
+    color: blueviolet;
+}
+
+.contacto-info {
+    padding: 30px 0 0 30px;
+}
+
+.contacto-info p{
+    padding: 10px;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.whatsapp .iconwts{
+    width: 4%;
+    height: 4%;
+}
+
+.email .iconmail{
+    width: 4%;
+    height: 4%;
+}
+
+.instagram .iconinsta{
+    width: 4%;
+    height: 4%;
+}
+
+.localizacion .iconlugar{
+    width: 4%;
+    height: 4%;
+}
+
+
+
+
+.contacto-formulario{
+    width: 50%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.contacto-formulario h2{
+    color:blueviolet;
+}
+
+.form-nombre{
+    margin-bottom: 20px;
+}
+
+.contacto-formulario .form-nombre input{
+    width: 478px;
+}
+
+.form-email{
+    margin-bottom: 20px;
+}
+
+.contacto-formulario .form-email input{
+    width: 478px;
+}
+
+.form-cel{
+    margin-bottom: 20px;
+}
+
+.contacto-formulario .form-cel input{
+    width: 478px;
+}
+
+.form-text {
+    margin-bottom: 20px;
+}
+
+
+.boton {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.boton input{
+    width: 20%;
+    height: 40px;
+    background-color: rgb(135, 82, 167);
+    color: #000000;
+}
+
+.boton input:hover{
+    width: 20%;
+    height: 40px;
+    background-color: rgb(213, 131, 224);
+    color: #000000;
+    cursor: pointer;
+}
+
+
+
+/* TIENDA */
+
+.tiendaa h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 17px;
+    color: blueviolet;
+    font-weight: 1000;
+}
+
+.tienda-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+}
+
+
+.tienda-container .tienda-joya {
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+.tienda-joya .tienda-foto {
+    width: 80%;
+    height: 60%;
+    background-color: #000000;
+    margin: 30px auto;
+}
+
+.tienda-foto img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.tienda-precio {
+    background-color: aqua;
+    width: 80%;
+    height: 22%;
+    margin: auto;
+    text-align: center;
+}
+
+.tienda-precio p {
+    margin-top: 20px;
+}
+
+.tienda-precio input{
+    margin-top: 15px;
+    background-color: rgb(240, 122, 240);
+    color: #000000;
+    padding: 3px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.tienda-precio input:hover{
+    margin-top: 15px;
+    background-color: rgb(243, 180, 243);
+    color: #000000;
+    padding: 3px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
+/* medir anillo */
+
+.medicion-container .medicion-titulo {
+    margin-top: 20PX;
+    text-align: center;
+}
+
+.medicion-container .medicion-titulo h1{
+    font-size: 60px;
+    color: blueviolet;
+}
+
+.medicion-container .medicion-titulo p{
+    width: 60%;
+    margin: 40PX auto;
+    font-size: 20px;
+}
+
+.medicion-pasos {
+    width: 60%;
+    margin: auto;
+    background-color: rgb(243, 208, 166);
+}
+
+.medicion-pasos h2 {
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+
+.medicion-pasos p{
+    margin-bottom: 30px;
+}
+
+.paso3 a {
+    color: #000000;
+}
+
+.medicion-imagen {
+    width: 62%;
+    height: 1110px;
+    margin: 80px auto;
+    background-color: #fff;
+    
+}
+
+.medicion-imagen img {
+    margin: auto;
+    width: 100%;
+}
+
