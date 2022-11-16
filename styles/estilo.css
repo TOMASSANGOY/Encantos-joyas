@@ -56,6 +56,9 @@ body{
     .info .slogan h2 {
         font-size: 25px;
     }
+    .contacto .grid {
+        margin-bottom: 45px;
+    } 
 }
 
 @media screen and (max-width: 575px) {
@@ -67,7 +70,7 @@ body{
 .categorias{
     margin-top: 100px;
     padding-top: 2%;
-    background-color: #a011c4;
+    background-color: #b13893;
     margin-bottom: 100px;
 }
 
@@ -78,13 +81,13 @@ body{
 }
 
 .categorias .imagen{
-    background-color: #a011c4;
+    background-color: #b13893;
     margin-bottom: 50px;
 }
 
 
 .tamaño-imagen{
-    background-color: #a011c4;
+    background-color: #b13893;
     width: 100%;
     height: 100%;
     margin-top: 20px;
@@ -92,7 +95,7 @@ body{
 
 .categorias .boton {
     width: 30%;
-    background-color: #a011c4;
+    background-color: #b13893;
     margin: auto;
 }
 
@@ -106,6 +109,20 @@ body{
     padding: 10px;
 }
 
+@media screen and (max-width: 460px) {
+    .categorias .boton a {
+        text-decoration: none;
+        font-size: 22px;
+        color: #000000;
+        background-color: rgb(248, 184, 177);
+        border: 4px solid rgb(200, 100, 100);
+        padding: 10px;
+    }
+    .info .slogan h2 {
+        font-size: 17px;
+    }
+}
+    
 
 /* FOOTER */
 
@@ -118,9 +135,10 @@ body{
     padding-top: 10px;
 }
 
+
 .paginas {
     display: grid;
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
 .paginas a {
@@ -138,7 +156,7 @@ body{
 }
 
 .medios {
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
 .medios img {
@@ -147,7 +165,7 @@ body{
 }
 
 .datos {
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
 .datos svg{
@@ -161,18 +179,22 @@ body{
 
 .col1 .wts {
     height: 150px;
+    margin-top: 18px;
 }
 
 .col1 .mail {
     height: 150px;
+    margin-top: 18px;
 }
 
 .col2 .lugar {
     height: 150px;
+    margin-top: 18px;
 }
 
 .col2 .insta {
     height: 150px;
+    margin-top: 18px;
 }
 
 @media screen and (max-width: 1475px) {
@@ -481,7 +503,7 @@ body{
 /* medir anillo */
 
 .medicion-container .medicion-titulo {
-    margin-top: 20PX;
+    margin-top: 6%;
     text-align: center;
 }
 
@@ -517,7 +539,6 @@ body{
 
 .medicion-imagen {
     width: 62%;
-    height: 1110px;
     margin: 80px auto;
     background-color: #fff;
     
@@ -528,3 +549,8 @@ body{
     width: 100%;
 }
 
+.nose {
+    background-color: #000000;
+    height: 50%;
+    width: 50px;
+}
