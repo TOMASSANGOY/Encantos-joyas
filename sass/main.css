@@ -1,0 +1,471 @@
+@charset "UTF-8";
+body {
+  background-color: aqua;
+}
+
+.imagen {
+  width: 10%;
+}
+.imagen img {
+  width: 100%;
+}
+
+.barra {
+  border-bottom: 1px inset black;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  background-color: white;
+}
+
+.letras a {
+  font-size: 18px;
+}
+
+:root .navbar-nav {
+  --bs-nav-link-color: rgb(228, 15, 192);
+}
+
+/* Slider */
+.carrusel {
+  margin: auto;
+  margin-top: 90px;
+  width: 70%;
+}
+
+/* INFO Y SLOGAN */
+.info .slogan h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 70px;
+  color: rgb(139, 78, 131);
+}
+
+@media screen and (max-width: 1130px) {
+  .info .slogan h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .info .slogan h2 {
+    font-size: 25px;
+  }
+  .contacto .grid {
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .info .slogan h2 {
+    font-size: 20px;
+  }
+}
+.categorias {
+  margin-top: 100px;
+  padding-top: 2%;
+  background-color: #b13893;
+  margin-bottom: 100px;
+}
+.categorias h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+.categorias .imagen {
+  background-color: #b13893;
+  margin-bottom: 50px;
+}
+
+.tamaño-imagen {
+  background-color: #b13893;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.categorias .boton {
+  width: 30%;
+  background-color: #b13893;
+  margin: auto;
+}
+.categorias .boton a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+  background-color: rgb(248, 184, 177);
+  border: 4px solid rgb(200, 100, 100);
+  padding: 10px;
+}
+
+@media screen and (max-width: 460px) {
+  .categorias .boton a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+    background-color: rgb(248, 184, 177);
+    border: 4px solid rgb(200, 100, 100);
+    padding: 10px;
+  }
+  .info .slogan h2 {
+    font-size: 17px;
+  }
+}
+/* FOOTER */
+.pie {
+  background-color: rgb(226, 226, 226);
+  border-top: 1px inset black;
+}
+
+.contacto {
+  padding-top: 10px;
+}
+
+.paginas {
+  display: grid;
+  margin-top: 18px;
+}
+.paginas a {
+  text-decoration: none;
+  color: #a011c4;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 22px;
+}
+.paginas a:hover {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+.medios {
+  margin-top: 18px;
+}
+.medios img {
+  width: 28%;
+  padding: 5px;
+}
+
+.datos {
+  margin-top: 18px;
+}
+.datos svg {
+  width: 40%;
+  height: 40%;
+}
+.datos p {
+  font-size: 20px;
+}
+
+.col1 .wts {
+  height: 150px;
+  margin-top: 18px;
+}
+.col1 .mail {
+  height: 150px;
+  margin-top: 18px;
+}
+
+.col2 .lugar {
+  height: 150px;
+  margin-top: 18px;
+}
+.col2 .insta {
+  height: 150px;
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 1475px) {
+  .datos {
+    margin-top: 30px;
+  }
+  .datos svg {
+    width: 50%;
+    height: 50%;
+  }
+  .datos p {
+    font-size: 15px;
+  }
+  .col1 .wts {
+    height: 120px;
+  }
+  .col1 .mail {
+    height: 120px;
+  }
+  .col2 .insta {
+    height: 120px;
+  }
+  .col2 .lugar {
+    height: 120px;
+  }
+  .paginas a {
+    text-decoration: none;
+    color: #a011c4;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 18px;
+  }
+  .paginas a:hover {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .datos {
+    margin-top: 20px;
+  }
+  .datos svg {
+    width: 20%;
+    height: 20%;
+  }
+  .datos p {
+    font-size: 12px;
+  }
+  .col1 .wts {
+    height: 100px;
+  }
+  .col1 .mail {
+    height: 100px;
+  }
+  .col2 .lugar {
+    height: 100px;
+  }
+  .col2 .insta {
+    height: 100px;
+  }
+  .paginas a {
+    text-decoration: none;
+    color: #a011c4;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 11px;
+  }
+  .paginas a:hover {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+  }
+}
+/* Como Comprar */
+.comoComprar {
+  margin: 120px 0 0 8%;
+  color: blueviolet;
+}
+.comoComprar h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.ComoComprar-pasos {
+  width: 100%;
+  margin-top: 150px;
+}
+.ComoComprar-pasos ol li {
+  margin: 70px;
+  font-size: 18px;
+}
+
+/* Contacto */
+.contacto-container {
+  margin-top: 7%;
+}
+
+.contacto-titulo {
+  width: 50%;
+  text-align: center;
+}
+.contacto-titulo h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: blueviolet;
+}
+
+.contacto-info {
+  padding: 70px 0 70px 30px;
+}
+.contacto-info p {
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  color: blueviolet;
+}
+.contacto-info h3 {
+  padding-bottom: 100px;
+  font-size: 25px;
+  color: black;
+}
+
+.whatsapp .iconwts {
+  width: 7%;
+  height: 7%;
+}
+
+.email .iconmail {
+  width: 7%;
+  height: 7%;
+}
+
+.instagram .iconinsta {
+  width: 7%;
+  height: 7%;
+}
+
+.localizacion .iconlugar {
+  width: 7%;
+  height: 7%;
+}
+
+.contacto-formulario {
+  width: 50%;
+  padding-top: 100px;
+  text-align: center;
+}
+.contacto-formulario h2 {
+  color: blueviolet;
+}
+.contacto-formulario .form-nombre {
+  margin-bottom: 40px;
+}
+.contacto-formulario .form-nombre input {
+  width: 478px;
+}
+.contacto-formulario .form-email {
+  margin-bottom: 40px;
+}
+.contacto-formulario .form-email input {
+  width: 478px;
+}
+.contacto-formulario .form-cel {
+  margin-bottom: 40px;
+}
+.contacto-formulario .form-cel input {
+  width: 478px;
+}
+.contacto-formulario .form-text {
+  margin-bottom: 40px;
+}
+
+.boton {
+  width: 100%;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+.boton input {
+  width: 20%;
+  height: 40px;
+  background-color: rgb(135, 82, 167);
+  color: #000000;
+}
+.boton input:hover {
+  width: 20%;
+  height: 40px;
+  background-color: rgb(213, 131, 224);
+  color: #000000;
+  cursor: pointer;
+}
+
+/* TIENDA */
+.tiendaa {
+  margin-top: 3%;
+  padding-top: 2%;
+  background-color: bisque;
+}
+.tiendaa h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 17px;
+  color: blueviolet;
+  font-weight: 1000;
+}
+
+.tienda-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+.tienda-container .tienda-joya {
+  width: 350px;
+  height: 500px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.tienda-container .tienda-joya .tienda-foto {
+  width: 80%;
+  height: 60%;
+  background-color: #000000;
+  margin: 30px auto;
+}
+.tienda-container .tienda-joya .tienda-foto img {
+  width: 100%;
+  height: 100%;
+}
+
+.tienda-precio {
+  background-color: aqua;
+  width: 80%;
+  height: 22%;
+  margin: auto;
+  text-align: center;
+}
+.tienda-precio p {
+  margin-top: 20px;
+}
+.tienda-precio input {
+  margin-top: 15px;
+  background-color: rgb(240, 122, 240);
+  color: #000000;
+  padding: 3px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.tienda-precio input:hover {
+  margin-top: 15px;
+  background-color: rgb(243, 180, 243);
+  color: #000000;
+  padding: 3px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* medir anillo */
+.medicion-container .medicion-titulo {
+  margin-top: 6%;
+  text-align: center;
+}
+.medicion-container .medicion-titulo h1 {
+  font-size: 60px;
+  color: blueviolet;
+}
+.medicion-container .medicion-titulo p {
+  width: 60%;
+  margin: 40PX auto;
+  font-size: 20px;
+}
+
+.medicion-pasos {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(243, 208, 166);
+}
+.medicion-pasos h2 {
+  margin-bottom: 10px;
+  color: blueviolet;
+}
+.medicion-pasos p {
+  margin-bottom: 30px;
+}
+
+.paso3 a {
+  color: #000000;
+}
+
+.medicion-imagen {
+  width: 62%;
+  margin: 80px auto;
+  background-color: #fff;
+}
+.medicion-imagen img {
+  margin: auto;
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
