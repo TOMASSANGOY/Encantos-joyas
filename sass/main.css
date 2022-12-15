@@ -464,6 +464,13 @@ nav {
   color: #5EA5BA;
   font-weight: 1000;
 }
+.tiendaa h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 17px;
+  color: #5EA5BA;
+  font-weight: 1000;
+}
 
 .tienda-container {
   margin-top: 20px;
@@ -495,6 +502,9 @@ nav {
   height: 22%;
   margin: auto;
   text-align: center;
+}
+.tienda-precio h3 {
+  font-size: 20px;
 }
 .tienda-precio p {
   margin-top: 20px;

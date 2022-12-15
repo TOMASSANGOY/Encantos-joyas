@@ -551,6 +551,13 @@ nav {
         color: #5EA5BA;
         font-weight: 1000;
     }
+    h1{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 17px;
+        color: #5EA5BA;
+        font-weight: 1000;
+    }
 }
 
 .tienda-container{
@@ -583,6 +590,9 @@ nav {
     height: 22%;
     margin: auto;
     text-align: center;
+    h3 {
+        font-size: 20px;
+    }
     p {
         margin-top: 20px;
     }
